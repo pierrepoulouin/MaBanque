@@ -12,6 +12,6 @@ public class AccountPEL extends Account{
 	public void setTxEpargne(double txEpargne) {
 		this.txEpargne = txEpargne;
 	}
-	
+
 	//
 }
