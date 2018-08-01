@@ -17,11 +17,8 @@ public class Application {
 		accountPELAurelia.setNom("Perrot");
 		accountPELAurelia.setPrenom("Aurelia");
 
-		//Declaration et initialisation de la variable montant
-		double montant = 25;
-
 		//appelle de la méthode transfertAccount de la class MainAccount
-		accountMainPierre.transfertAccount(accountPELAurelia, montant);
+		accountMainPierre.transfertAccount(accountPELAurelia, 25);
 
 		//Affichage du solde du compte Pierre après transfert
 		System.out.println("Le compte de " + accountMainPierre.getNom() + " est de " + accountMainPierre.getSolde());
