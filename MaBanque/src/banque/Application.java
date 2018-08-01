@@ -20,9 +20,8 @@ public class Application {
 		//appelle de la méthode transfertAccount de la class MainAccount
 		accountMainPierre.transfertAccount(accountPELAurelia, 25);
 
-		//Affichage du solde du compte Pierre après transfert
-		System.out.println("Le compte de " + accountMainPierre.getNom() + " est de " + accountMainPierre.getSolde());
-
+		//Appelle de la methode retrait
+		accountMainPierre.withdraw(30);
 
 	}
 
